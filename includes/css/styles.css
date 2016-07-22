@@ -1,0 +1,95 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+    img{
+      float: left;
+    }
+   #searchInput{
+     float:left;
+     width: 200px;
+   }
+
+
+  .Det{
+    font-weight: bold;
+    background-color: black;
+    font-size-adjust: auto;
+  }
+  nav li:hover{
+    font-weight: bold;
+    background-color: blue;
+  }
+  .jumbotron{
+    width:100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  #jumbo1{
+    background:url("../../images/wild.jpg") no-repeat center center;
+    color: white;
+    padding-left:450px;
+    font-family:arial;
+  }
+  footer{
+    background: blue;
+  }
+  #myCarousel{
+    padding-bottom: 200px;
+    color:blue;
+  }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
